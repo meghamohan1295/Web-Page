@@ -25,6 +25,8 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-eslint": "^5.0.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-load-plugins": "^2.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.9",
@@ -38,5 +40,8 @@
     "stylelint": "^10.0.1",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-scss": "^3.5.4"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^8.0.0"
   }
 }
