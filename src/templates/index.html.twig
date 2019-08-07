@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Axelerant: Interview Frontend</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="menu-toggle"></div>
+        <a href="#" id="left">COMPANY
+            <span class='textcolor'>
+                LOGO
+            </span>
+        </a>
+        <div class="message1">
+            <a></a>
+        </div>
+        <div class="navBar">
+            <ul>
+                <li>
+                    <a href='#'>
+                        About</a>
+                </li>
+                <li>
+                    <a href='#'>
+                        Services</a>
+                </li>
+                <li>
+                    <a href='#'>
+                        Solutions</a>
+                </li>
+                <li>
+                    <a href='#'>
+                        Blog</a>
+                </li>
+                <li class="message">
+                    <a href='#'>
+                        <i aria-hidden="true" class="fa fa-envelope-o"></i>Get In Touch</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content1">
+            <div>
+                <h2>Our Services</h2>
+            </div>
+            <div class="imagecontainer">
+                <div>
+                    <img alt="Service1" src="../../images/staffing-icon-2.png" class="services">
+                </div>
+                <div>
+                    <img alt="Service1" src="../../images/stock-vector.png" class="services">
+                </div>
+                <div>
+                    <img alt="Service1" src="../../images/folder.png" class="services">
+                </div>
+            </div>
+        </div>
+        <div class="content2 clearfix">
+            <img src="../../images/map.png" alt="image" class="map">
+            <h3>
+                Case Studies is not what you look like and feels like</h3><br>
+            <p>A desk, chair, laptop, and passionate mindset, these were the assets when Weft had its beginning. Since
+                then Weft grew to be a company with 3 offices in UAE, India, and Oman with 50+ employees, covering 150+
+                projects across India, the Middle East and Europe.</p>
+        </div>
+        <div class="content3">
+            <div class='heading'>
+                <h2>Testimonials</h2>
+            </div>
+            <div class="testimonial">
+                <div class="profile">
+                    <div class="test-content">
+                        <p>I have been involved in big projects for major corporations and the team at Mindfire is the
+                            best that I have worked with. They are timely, efficient and use best practices in their
+                            development work. They move our project along quickly and keep us agile enough to be
+                            competitive. I would recommend them to anyone.<p>
+                    </div>
+
+                    <div class="user">
+                        <img src="../../images/profile.png" alt="Girl in a jacket" style="width:20px;height:20px;">
+                        <p>CLIENT 1<p>
+
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="test-content">
+                        <p>I have been involved in big projects for major corporations and the team at Mindfire is the
+                            best that I have worked with. They are timely, efficient and use best practices in their
+                            development work. They move our project along quickly and keep us agile enough to be
+                            competitive. I would recommend them to anyone.<p>
+                    </div>
+                    <div class="user">
+                        <img src="../../images/profile.png" alt="Girl in a jacket" style="width:20px;height:20px;">
+                        <p>CLIENT 1<p>
+                    </div>
+
+                </div>
+                <div class="profile">
+
+                    <div class="test-content">
+                        <p>I have been involved in big projects for major corporations and the team at Mindfire is the
+                            best that I have worked with. They are timely, efficient and use best practices in their
+                            development work. They move our project along quickly and keep us agile enough to be
+                            competitive. I would recommend them to anyone.<p>
+                    </div>
+                    <div class="user">
+                        <img src="../../images/profile.png" alt="Girl in a jacket" style="width:20px;height:20px;">
+                        <p>CLIENT 1<p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content4">
+            <h2>Convinced To Work With Us</h2>
+            <p>Company has helped agencies  keep their promises to clients since 2015</p>
+           <div id="contactus">
+                <div class="contact">
+                    <input type="text" placeholder="Full name" class="inputs">
+                    <input type="text" class="inputs" placeholder="Email Address">
+                    <input type="text" class="inputs" placeholder="Phone Number">
+                </div>
+                <div>
+                    <input type="text" class="response" placeholder="Message in Brief" >
+                </div>
+                <button class="button" type="submit" value="Submit">Submit</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>2017 Company.All Rights Reserved.</p>
+            <p>Follow us on :<image src="../../images/fb.png" alt="fb"><image src="../../images/ln.png" alt="ln"><image src="../../images/twitter.png" alt="twitter">
+            
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle').toggleClass('active');
+                $('.navBar').toggleClass('active')
+
+            })
+
+        })
+    </script>
+</body>
+
+</html>
