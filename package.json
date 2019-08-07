@@ -42,6 +42,8 @@
     "stylelint-scss": "^3.5.4"
   },
   "dependencies": {
-    "imagemin-pngquant": "^8.0.0"
+    "font-awesome": "^4.7.0",
+    "imagemin-pngquant": "^8.0.0",
+    "jquery": "^3.4.1"
   }
 }

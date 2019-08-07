@@ -64,14 +64,14 @@ gulp.task('eslint', () => {
 
 gulp.task('imageminify', () =>
   gulp
-    .src('Images/*')
+    .src('images/*')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/images'))
 );
 
 gulp.task('imagemin', () => {
   return gulp
-    .src('Images/*')
+    .src('images/*')
     .pipe(
       plugins.imagemin({
         progressive: true,

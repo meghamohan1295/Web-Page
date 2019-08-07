@@ -1,0 +1,176 @@
+@import 'config/**/*.scss';
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+body {
+  .topnav {
+    #rightButton {
+      float: right;
+      height: 32px;
+      border-radius: 30px;
+      margin-top: 8px;
+      margin-right: 10px;
+      background-color: #d71010;
+      border-color: red;
+      .message {
+        height: 26px;
+        width: 20px;
+        padding-top: 5px;
+        padding-left: 3px;
+      }
+      #getTouch {
+        top: -9px;
+        position: relative;
+      }
+    }
+    #left {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .right {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .textcolor {
+      color: red;
+    }
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+  }
+  .content1 {
+    background-image: url('../../images/office.jpg');
+    padding: 10px;
+    height: 100%; /* Should be removed. Only for demonstration */
+    background-size: 100% auto;
+    h2 {
+      text-align: center;
+      color: white;
+    }
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    div {
+      height: 88px;
+      border-color: white;
+      border-width: 1px;
+      border-style: solid;
+      padding: 20px;
+      margin: 20px;
+    }
+  }
+    
+  }
+  .content2 {
+    
+    padding: 10px; 
+    background-color: #ffff;
+    height: 50%; /* Should be removed. Only for demonstration */
+    background-size: 100% auto;
+  }
+  .row {
+    display: flex;
+  
+  }
+  .column {
+    flex: 50%;
+    margin: 30px;
+  }
+  .content3 {
+    padding: 10px; 
+    background-color: #EDE7E7;
+    height: 50%; /* Should be removed. Only for demonstration */
+    background-size: 100% auto;
+    img {
+      float: left;
+      margin-right: 15px;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      font-family: monospace;
+      font-size: initial;
+    }
+    .testimonials {
+      border-radius: 6px;
+    border-color: white;
+    background-color: white;
+    height: 103px;
+    width: 53%;
+    padding: 20px;
+    }
+  }
+  .test {
+    display: flex;
+    justify-content: center;
+  }
+  .content4 {
+      
+    padding: 10px; 
+    background-color: #696767;
+    height: 50%; /* Should be removed. Only for demonstration */
+    background-size: 100% auto;
+
+    h2 {
+      text-align: center;
+      color: white;
+    }
+    p{
+      text-align: center;
+      color: white;
+    }
+    .data {
+      padding-right: 10px;
+    }
+  
+  }
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .container2 {
+      padding-right: 10px; 
+      input {
+        width: 726px;
+        height: 61px;
+        margin: 13px;
+
+    }
+   
+    }
+  }
+  .form {
+    background-color: #d71010;
+    border-color: red;
+    border-radius: 30px;
+    color: white;
+
+  }
+
+  /* Style the footer */
+  .footer {
+    background-color: #070707;
+    padding: 10px;
+  }
+
+  // font-size: 100%;
+  // display: flex;
+}
